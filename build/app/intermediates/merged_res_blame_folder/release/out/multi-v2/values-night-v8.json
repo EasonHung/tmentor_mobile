@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hongyixun/Desktop/tmentor/tmentor_app/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/res/values-night/styles.xml",
+                    "from": {
+                        "startLines": "3,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,1012",
+                        "endLines": "10,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "661,1176"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,549",
+                        "endLines": "9,12",
+                        "endColumns": "12,12",
+                        "endOffsets": "544,713"
+                    }
+                },
+                {
+                    "source": "/Users/hongyixun/.gradle/caches/transforms-3/bdb56d606d1451612a47d5a33d6c8d57/transformed/appcompat-1.3.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "718,788,872,956,1052,1154,1256,1350",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "783,867,951,1047,1149,1251,1345,1434"
+                    }
+                }
+            ]
+        }
+    ]
+}

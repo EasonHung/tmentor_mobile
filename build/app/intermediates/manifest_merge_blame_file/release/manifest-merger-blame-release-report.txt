@@ -1,0 +1,517 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eak.mentor.app"
+4    android:versionCode="12"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:3:4-66
+11-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:3:21-63
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:4:4-59
+13-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:4:18-56
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:5:4-69
+14-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:5:18-66
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:6:4-64
+16-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:6:21-61
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:7:4-65
+17-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:7:21-62
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:8:4-80
+18-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:8:21-77
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:9:4-70
+19-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:9:21-67
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:10:4-78
+20-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:10:21-75
+21    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+21-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:11:4-78
+21-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:11:21-75
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:12:4-79
+22-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:12:21-76
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:13:4-67
+23-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:13:21-64
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:14:4-76
+24-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:14:21-73
+25    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+25-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:15:3-93
+25-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:15:20-90
+26    <!-- Permissions options for the `notification` group -->
+27    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+27-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+27-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+28    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+28-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+28-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+29    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+29-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:5-82
+30-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:22-79
+31    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+31-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/57c62ec28655477fc1c755454e6b047b/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+31-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/57c62ec28655477fc1c755454e6b047b/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+32    <uses-permission
+32-->[com.github.davidliu:audioswitch:c498d866c57f1d88056d5e7e7a78d622e3b0c046] /Users/hongyixun/.gradle/caches/transforms-3/4fb6cd8e1e41077e4ad581b4ec4791c4/transformed/jetified-audioswitch-c498d866c57f1d88056d5e7e7a78d622e3b0c046/AndroidManifest.xml:9:5-11:38
+33        android:name="android.permission.BLUETOOTH"
+33-->[com.github.davidliu:audioswitch:c498d866c57f1d88056d5e7e7a78d622e3b0c046] /Users/hongyixun/.gradle/caches/transforms-3/4fb6cd8e1e41077e4ad581b4ec4791c4/transformed/jetified-audioswitch-c498d866c57f1d88056d5e7e7a78d622e3b0c046/AndroidManifest.xml:10:9-52
+34        android:maxSdkVersion="30" />
+34-->[com.github.davidliu:audioswitch:c498d866c57f1d88056d5e7e7a78d622e3b0c046] /Users/hongyixun/.gradle/caches/transforms-3/4fb6cd8e1e41077e4ad581b4ec4791c4/transformed/jetified-audioswitch-c498d866c57f1d88056d5e7e7a78d622e3b0c046/AndroidManifest.xml:11:9-35
+35    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+35-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+35-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+36
+37    <uses-feature
+37-->[com.google.android.gms:play-services-maps:17.0.0] /Users/hongyixun/.gradle/caches/transforms-3/989e55e2af3f9266d78bb6240c5c0b45/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+38        android:glEsVersion="0x00020000"
+38-->[com.google.android.gms:play-services-maps:17.0.0] /Users/hongyixun/.gradle/caches/transforms-3/989e55e2af3f9266d78bb6240c5c0b45/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+39        android:required="true" />
+39-->[com.google.android.gms:play-services-maps:17.0.0] /Users/hongyixun/.gradle/caches/transforms-3/989e55e2af3f9266d78bb6240c5c0b45/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+40
+41    <application
+41-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:16:4-73:19
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.8.0] /Users/hongyixun/.gradle/caches/transforms-3/62963c47a23fe1a30b0528304c94da78/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+43        android:icon="@mipmap/ic_launcher"
+43-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:18:9-43
+44        android:label="Tmentor" >
+44-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:17:9-32
+45        <activity
+45-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:19:9-48:20
+46            android:name="com.eak.mentor.app.MainActivity"
+46-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:20:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:24:13-163
+48            android:exported="true"
+48-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:21:13-36
+49            android:hardwareAccelerated="true"
+49-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:25:13-47
+50            android:launchMode="singleTop"
+50-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:22:13-43
+51            android:theme="@style/LaunchTheme"
+51-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:23:13-47
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:26:13-55
+53
+54            <!--
+55                 Specifies an Android theme to apply to this Activity as soon as
+56                 the Android process has started. This theme is visible to the user
+57                 while the Flutter UI initializes. After that, this theme continues
+58                 to determine the Window background behind the Flutter UI.
+59            -->
+60            <meta-data
+60-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:31:13-34:17
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:32:15-70
+62                android:resource="@style/NormalTheme" />
+62-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:33:15-52
+63            <!--
+64                 Displays an Android View that continues showing the launch screen
+65                 Drawable until Flutter paints its first frame, then this splash
+66                 screen fades out. A splash screen is useful to avoid any visual
+67                 gap between the end of Android's launch screen and the painting of
+68                 Flutter's first frame.
+69            -->
+70            <!--
+71              <meta-data
+72              android:name="io.flutter.embedding.android.SplashScreenDrawable"
+73              android:resource="@drawable/launch_background"
+74              />
+75            -->
+76            <intent-filter>
+76-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:44:13-47:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:45:17-68
+77-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:45:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:46:17-76
+79-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:46:27-74
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:50:9-53:67
+83            android:name="com.yalantis.ucrop.UCropActivity"
+83-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:51:9-56
+84            android:screenOrientation="portrait"
+84-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:52:9-45
+85            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+85-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:53:9-65
+86
+87        <!--
+88             Don't delete the meta-data below.
+89             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+90        -->
+91        <meta-data
+91-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:57:9-59:33
+92            android:name="flutterEmbedding"
+92-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:58:13-44
+93            android:value="2" />
+93-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:59:13-30
+94        <meta-data
+94-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:61:9-63:62
+95            android:name="com.google.firebase.messaging.default_notification_channel_id"
+95-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:62:13-89
+96            android:value="mentor_notification_channel_id" />
+96-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:63:13-59
+97        <meta-data
+97-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:65:8-67:59
+98            android:name="com.google.firebase.messaging.default_notification_icon"
+98-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:66:12-82
+99            android:resource="@mipmap/notification_icon" />
+99-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:67:12-56
+100
+101        <service
+101-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:69:9-72:39
+102            android:name="de.julianassmann.flutter_background.IsolateHolderService"
+102-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:69:18-89
+103            android:enabled="true"
+103-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:71:13-35
+104            android:exported="false"
+104-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:72:13-37
+105            android:foregroundServiceType="mediaProjection" />
+105-->/Users/hongyixun/Desktop/tmentor/tmentor_app/android/app/src/main/AndroidManifest.xml:70:13-60
+106        <service
+106-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+107            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+107-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+108            android:exported="false"
+108-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+109            android:permission="android.permission.BIND_JOB_SERVICE" />
+109-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+110        <service
+110-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+111            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+111-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+112            android:exported="false" >
+112-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+113            <intent-filter>
+113-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+114                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+114-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+114-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+115            </intent-filter>
+116        </service>
+117
+118        <receiver
+118-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+119            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+119-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+120            android:exported="true"
+120-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+121            android:permission="com.google.android.c2dm.permission.SEND" >
+121-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+122            <intent-filter>
+122-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+123                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+123-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+123-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+124            </intent-filter>
+125        </receiver>
+126
+127        <service
+127-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+128            android:name="com.google.firebase.components.ComponentDiscoveryService"
+128-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-89
+129            android:directBootAware="true"
+129-->[com.google.firebase:firebase-common:20.3.0] /Users/hongyixun/.gradle/caches/transforms-3/0340c39637c54aa423fad899e1ad99f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+130            android:exported="false" >
+130-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:54:13-37
+131            <meta-data
+131-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+132                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+132-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+134            <meta-data
+134-->[:firebase_core] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+135                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+135-->[:firebase_core] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[:firebase_core] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:55:13-57:85
+138                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+138-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/hongyixun/.gradle/caches/transforms-3/5ef24349438ef84ed7003a94993eef1a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+141                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+141-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/hongyixun/.gradle/caches/transforms-3/5ef24349438ef84ed7003a94993eef1a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/hongyixun/.gradle/caches/transforms-3/5ef24349438ef84ed7003a94993eef1a/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-iid:21.1.0] /Users/hongyixun/.gradle/caches/transforms-3/361d32c1e032b8ef179416db8b9ea6b8/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+144                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+144-->[com.google.firebase:firebase-iid:21.1.0] /Users/hongyixun/.gradle/caches/transforms-3/361d32c1e032b8ef179416db8b9ea6b8/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-iid:21.1.0] /Users/hongyixun/.gradle/caches/transforms-3/361d32c1e032b8ef179416db8b9ea6b8/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+146            <meta-data
+146-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/57c62ec28655477fc1c755454e6b047b/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+147                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+147-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/57c62ec28655477fc1c755454e6b047b/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/57c62ec28655477fc1c755454e6b047b/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-installations:17.1.0] /Users/hongyixun/.gradle/caches/transforms-3/6f42a2cfece2a1b7fbbc8b73d0c68d2c/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+150                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+150-->[com.google.firebase:firebase-installations:17.1.0] /Users/hongyixun/.gradle/caches/transforms-3/6f42a2cfece2a1b7fbbc8b73d0c68d2c/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-installations:17.1.0] /Users/hongyixun/.gradle/caches/transforms-3/6f42a2cfece2a1b7fbbc8b73d0c68d2c/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+152        </service>
+153
+154        <provider
+154-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+155            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+155-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+156            android:authorities="com.eak.mentor.app.flutterfirebasemessaginginitprovider"
+156-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+157            android:exported="false"
+157-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+158            android:initOrder="99" />
+158-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+159        <provider
+159-->[:image_picker_android] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+160            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+160-->[:image_picker_android] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+161            android:authorities="com.eak.mentor.app.flutter.image_provider"
+161-->[:image_picker_android] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+162            android:exported="false"
+162-->[:image_picker_android] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+163            android:grantUriPermissions="true" >
+163-->[:image_picker_android] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+164            <meta-data
+164-->[:image_picker_android] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+165                android:name="android.support.FILE_PROVIDER_PATHS"
+165-->[:image_picker_android] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+166                android:resource="@xml/flutter_image_picker_file_paths" />
+166-->[:image_picker_android] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+167        </provider>
+168
+169        <receiver
+169-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+170            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+170-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+171            android:exported="false" />
+171-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+172        <receiver
+172-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+173            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+173-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+174            android:exported="false" />
+174-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+175        <receiver
+175-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+176            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+176-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+177            android:exported="false" >
+177-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+178            <intent-filter>
+178-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+179                <action android:name="android.intent.action.BOOT_COMPLETED" />
+179-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+179-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+180                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+180-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+180-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+181                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+181-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+181-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+182                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+182-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+182-->[:flutter_local_notifications] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+183            </intent-filter>
+184        </receiver>
+185
+186        <meta-data
+186-->[:pay_android] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/pay_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:36
+187            android:name="com.google.android.gms.wallet.api.enabled"
+187-->[:pay_android] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/pay_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-69
+188            android:value="true" />
+188-->[:pay_android] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/pay_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-33
+189
+190        <uses-library
+190-->[androidx.window:window:1.0.0-beta04] /Users/hongyixun/.gradle/caches/transforms-3/f49e55969886c54aacfb358bf53d1399/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+191            android:name="androidx.window.extensions"
+191-->[androidx.window:window:1.0.0-beta04] /Users/hongyixun/.gradle/caches/transforms-3/f49e55969886c54aacfb358bf53d1399/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+192            android:required="false" />
+192-->[androidx.window:window:1.0.0-beta04] /Users/hongyixun/.gradle/caches/transforms-3/f49e55969886c54aacfb358bf53d1399/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+193        <uses-library
+193-->[androidx.window:window:1.0.0-beta04] /Users/hongyixun/.gradle/caches/transforms-3/f49e55969886c54aacfb358bf53d1399/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+194            android:name="androidx.window.sidecar"
+194-->[androidx.window:window:1.0.0-beta04] /Users/hongyixun/.gradle/caches/transforms-3/f49e55969886c54aacfb358bf53d1399/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+195            android:required="false" />
+195-->[androidx.window:window:1.0.0-beta04] /Users/hongyixun/.gradle/caches/transforms-3/f49e55969886c54aacfb358bf53d1399/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+196
+197        <receiver
+197-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:31:9-38:20
+198            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+198-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:32:13-78
+199            android:exported="true"
+199-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:33:13-36
+200            android:permission="com.google.android.c2dm.permission.SEND" >
+200-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:34:13-73
+201            <intent-filter>
+201-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+202                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+202-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+202-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+203            </intent-filter>
+204        </receiver>
+205        <!--
+206             FirebaseMessagingService performs security checks at runtime,
+207             but set to not exported to explicitly avoid allowing another app to call it.
+208        -->
+209        <service
+209-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:44:9-51:19
+210            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+210-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:45:13-82
+211            android:directBootAware="true"
+211-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:46:13-43
+212            android:exported="false" >
+212-->[com.google.firebase:firebase-messaging:23.1.1] /Users/hongyixun/.gradle/caches/transforms-3/32aa1640a142b7ca03a750ba4d7ca3ae/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:47:13-37
+213            <intent-filter android:priority="-500" >
+213-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+214                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+214-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+214-->[:firebase_messaging] /Users/hongyixun/Desktop/tmentor/tmentor_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+215            </intent-filter>
+216        </service>
+217        <service
+217-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/766b61e0c02b7106bf0d1ea656497bbf/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+218            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+218-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/766b61e0c02b7106bf0d1ea656497bbf/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+219            android:exported="false" >
+219-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/766b61e0c02b7106bf0d1ea656497bbf/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+220            <meta-data
+220-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/766b61e0c02b7106bf0d1ea656497bbf/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+221                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+221-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/766b61e0c02b7106bf0d1ea656497bbf/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+222                android:value="cct" />
+222-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/766b61e0c02b7106bf0d1ea656497bbf/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+223        </service>
+224        <service
+224-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/7920d47d94e61951720eeb9bb37a6d82/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+225            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+225-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/7920d47d94e61951720eeb9bb37a6d82/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+226            android:exported="false"
+226-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/7920d47d94e61951720eeb9bb37a6d82/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+227            android:permission="android.permission.BIND_JOB_SERVICE" >
+227-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/7920d47d94e61951720eeb9bb37a6d82/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+228        </service>
+229
+230        <receiver
+230-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/7920d47d94e61951720eeb9bb37a6d82/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+231            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+231-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/7920d47d94e61951720eeb9bb37a6d82/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+232            android:exported="false" />
+232-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hongyixun/.gradle/caches/transforms-3/7920d47d94e61951720eeb9bb37a6d82/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+233
+234        <provider
+234-->[com.google.firebase:firebase-common:20.3.0] /Users/hongyixun/.gradle/caches/transforms-3/0340c39637c54aa423fad899e1ad99f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+235            android:name="com.google.firebase.provider.FirebaseInitProvider"
+235-->[com.google.firebase:firebase-common:20.3.0] /Users/hongyixun/.gradle/caches/transforms-3/0340c39637c54aa423fad899e1ad99f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+236            android:authorities="com.eak.mentor.app.firebaseinitprovider"
+236-->[com.google.firebase:firebase-common:20.3.0] /Users/hongyixun/.gradle/caches/transforms-3/0340c39637c54aa423fad899e1ad99f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+237            android:directBootAware="true"
+237-->[com.google.firebase:firebase-common:20.3.0] /Users/hongyixun/.gradle/caches/transforms-3/0340c39637c54aa423fad899e1ad99f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+238            android:exported="false"
+238-->[com.google.firebase:firebase-common:20.3.0] /Users/hongyixun/.gradle/caches/transforms-3/0340c39637c54aa423fad899e1ad99f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+239            android:initOrder="100" />
+239-->[com.google.firebase:firebase-common:20.3.0] /Users/hongyixun/.gradle/caches/transforms-3/0340c39637c54aa423fad899e1ad99f7/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+240
+241        <activity
+241-->[com.google.android.gms:play-services-auth:20.4.1] /Users/hongyixun/.gradle/caches/transforms-3/c6b653285e2f172dce5a3abb9d4a480c/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:23:9-27:75
+242            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+242-->[com.google.android.gms:play-services-auth:20.4.1] /Users/hongyixun/.gradle/caches/transforms-3/c6b653285e2f172dce5a3abb9d4a480c/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:24:13-93
+243            android:excludeFromRecents="true"
+243-->[com.google.android.gms:play-services-auth:20.4.1] /Users/hongyixun/.gradle/caches/transforms-3/c6b653285e2f172dce5a3abb9d4a480c/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:25:13-46
+244            android:exported="false"
+244-->[com.google.android.gms:play-services-auth:20.4.1] /Users/hongyixun/.gradle/caches/transforms-3/c6b653285e2f172dce5a3abb9d4a480c/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:26:13-37
+245            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+245-->[com.google.android.gms:play-services-auth:20.4.1] /Users/hongyixun/.gradle/caches/transforms-3/c6b653285e2f172dce5a3abb9d4a480c/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:27:13-72
+246        <!--
+247            Service handling Google Sign-In user revocation. For apps that do not integrate with
+248            Google Sign-In, this service will never be started.
+249        -->
+250        <service
+250-->[com.google.android.gms:play-services-auth:20.4.1] /Users/hongyixun/.gradle/caches/transforms-3/c6b653285e2f172dce5a3abb9d4a480c/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:33:9-37:51
+251            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+251-->[com.google.android.gms:play-services-auth:20.4.1] /Users/hongyixun/.gradle/caches/transforms-3/c6b653285e2f172dce5a3abb9d4a480c/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:34:13-89
+252            android:exported="true"
+252-->[com.google.android.gms:play-services-auth:20.4.1] /Users/hongyixun/.gradle/caches/transforms-3/c6b653285e2f172dce5a3abb9d4a480c/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:35:13-36
+253            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+253-->[com.google.android.gms:play-services-auth:20.4.1] /Users/hongyixun/.gradle/caches/transforms-3/c6b653285e2f172dce5a3abb9d4a480c/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:36:13-107
+254            android:visibleToInstantApps="true" />
+254-->[com.google.android.gms:play-services-auth:20.4.1] /Users/hongyixun/.gradle/caches/transforms-3/c6b653285e2f172dce5a3abb9d4a480c/transformed/jetified-play-services-auth-20.4.1/AndroidManifest.xml:37:13-48
+255
+256        <receiver
+256-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+257            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+257-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+258            android:enabled="true"
+258-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+259            android:exported="false" >
+259-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+260        </receiver>
+261
+262        <service
+262-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+263            android:name="com.google.android.gms.measurement.AppMeasurementService"
+263-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+264            android:enabled="true"
+264-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+265            android:exported="false" />
+265-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+266        <service
+266-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+267            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+267-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+268            android:enabled="true"
+268-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+269            android:exported="false"
+269-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+270            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+270-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/hongyixun/.gradle/caches/transforms-3/39b8bb0a1c499698fd3f4cef6e7c34bf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+271        <uses-library
+271-->[com.google.android.gms:play-services-maps:17.0.0] /Users/hongyixun/.gradle/caches/transforms-3/989e55e2af3f9266d78bb6240c5c0b45/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+272            android:name="org.apache.http.legacy"
+272-->[com.google.android.gms:play-services-maps:17.0.0] /Users/hongyixun/.gradle/caches/transforms-3/989e55e2af3f9266d78bb6240c5c0b45/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+273            android:required="false" />
+273-->[com.google.android.gms:play-services-maps:17.0.0] /Users/hongyixun/.gradle/caches/transforms-3/989e55e2af3f9266d78bb6240c5c0b45/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+274
+275        <activity
+275-->[com.google.android.gms:play-services-base:18.0.1] /Users/hongyixun/.gradle/caches/transforms-3/4852047f0431c6f0480266c8f30c18e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+276            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+276-->[com.google.android.gms:play-services-base:18.0.1] /Users/hongyixun/.gradle/caches/transforms-3/4852047f0431c6f0480266c8f30c18e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+277            android:exported="false"
+277-->[com.google.android.gms:play-services-base:18.0.1] /Users/hongyixun/.gradle/caches/transforms-3/4852047f0431c6f0480266c8f30c18e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+278            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+278-->[com.google.android.gms:play-services-base:18.0.1] /Users/hongyixun/.gradle/caches/transforms-3/4852047f0431c6f0480266c8f30c18e9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+279
+280        <meta-data
+280-->[com.google.android.gms:play-services-basement:18.1.0] /Users/hongyixun/.gradle/caches/transforms-3/dad6c0187dd68cdb627e59ea9bdf5d6b/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+281            android:name="com.google.android.gms.version"
+281-->[com.google.android.gms:play-services-basement:18.1.0] /Users/hongyixun/.gradle/caches/transforms-3/dad6c0187dd68cdb627e59ea9bdf5d6b/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+282            android:value="@integer/google_play_services_version" />
+282-->[com.google.android.gms:play-services-basement:18.1.0] /Users/hongyixun/.gradle/caches/transforms-3/dad6c0187dd68cdb627e59ea9bdf5d6b/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+283    </application>
+284
+285</manifest>
